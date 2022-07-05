@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+
+  
+  <title>sleepyhermit的博客</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta property="og:type" content="website">
+<meta property="og:title" content="sleepyhermit的博客">
+<meta property="og:url" content="https://sleepyhermit.github.io/index.html">
+<meta property="og:site_name" content="sleepyhermit的博客">
+<meta property="og:locale" content="en_US">
+<meta property="article:author" content="sleepyhermit">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/atom.xml" title="sleepyhermit的博客" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+<meta name="generator" content="Hexo 5.4.2"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">sleepyhermit的博客</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://sleepyhermit.github.io"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main">
+  
+    <article id="post-Computer-Networks" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2022/07/05/Computer-Networks/" class="article-date">
+  <time datetime="2022-07-05T01:59:28.000Z" itemprop="datePublished">2022-07-05</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2022/07/05/Computer-Networks/">计算机网络</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>重点：</p>
+<ul>
+<li>网络体系结构和典型网络 以太网</li>
+<li>协议</li>
+<li>网络设备</li>
+</ul>
+<h2 id="计算机网络体系结构"><a href="#计算机网络体系结构" class="headerlink" title="计算机网络体系结构"></a>计算机网络体系结构</h2><h3 id="概念、组成、功能和分类"><a href="#概念、组成、功能和分类" class="headerlink" title="概念、组成、功能和分类"></a>概念、组成、功能和分类</h3><p><img src="/2022/07/05/Computer-Networks/0001.jpg" alt="1"><br><img src="/2022/07/05/Computer-Networks/0002.jpg" alt="1"><img src="/2022/07/05/Computer-Networks/0003.jpg" alt="1"><img src="/2022/07/05/Computer-Networks/0004.jpg" alt="1"><img src="/2022/07/05/Computer-Networks/0005.jpg" alt="1"><img src="/2022/07/05/Computer-Networks/0006.jpg" alt="1"><img src="/2022/07/05/Computer-Networks/0007.jpg" alt="1"></p>
+<h3 id="标准化工作及相关组织"><a href="#标准化工作及相关组织" class="headerlink" title="标准化工作及相关组织"></a>标准化工作及相关组织</h3><p><img src="/2022/07/05/Computer-Networks/0008.jpg" alt="1"><br><img src="/2022/07/05/Computer-Networks/0009.jpg" alt="1"><img src="/2022/07/05/Computer-Networks/0010.jpg" alt="1"><img src="/2022/07/05/Computer-Networks/0011.jpg" alt="1"></p>
+<h3 id="性能指标"><a href="#性能指标" class="headerlink" title="性能指标"></a>性能指标</h3><h4 id="速率"><a href="#速率" class="headerlink" title="速率"></a>速率</h4><p><img src="/2022/07/05/Computer-Networks/0012.jpg" alt="1"><img src="/2022/07/05/Computer-Networks/0013.jpg" alt="1"></p>
+<h4 id="带宽"><a href="#带宽" class="headerlink" title="带宽"></a>带宽</h4><p><img src="/2022/07/05/Computer-Networks/0014.jpg" alt="1"></p>
+<h4 id="吞吐量"><a href="#吞吐量" class="headerlink" title="吞吐量"></a>吞吐量</h4><p><img src="/2022/07/05/Computer-Networks/0015.jpg" alt="1"></p>
+<h4 id="时延"><a href="#时延" class="headerlink" title="时延"></a>时延</h4><p><img src="/2022/07/05/Computer-Networks/2022-06-26-11-06-43.png" alt="1"><br>高速链路只会影响发送时延</p>
+<h4 id="时延带宽积"><a href="#时延带宽积" class="headerlink" title="时延带宽积"></a>时延带宽积</h4><p><img src="/2022/07/05/Computer-Networks/2022-06-26-11-08-46.png" alt="1"></p>
+<h4 id="往返时延RTT"><a href="#往返时延RTT" class="headerlink" title="往返时延RTT"></a>往返时延RTT</h4><p><img src="/2022/07/05/Computer-Networks/2022-06-26-11-11-04.png" alt="1"></p>
+<h4 id="利用率"><a href="#利用率" class="headerlink" title="利用率"></a>利用率</h4><p><img src="/2022/07/05/Computer-Networks/2022-06-26-11-12-43.png" alt="1"></p>
+<p><img src="/2022/07/05/Computer-Networks/2022-06-26-11-13-30.png" alt="1"></p>
+<h3 id="分层结构、协议、接口、服务"><a href="#分层结构、协议、接口、服务" class="headerlink" title="分层结构、协议、接口、服务"></a>分层结构、协议、接口、服务</h3><h4 id="为什么要分层"><a href="#为什么要分层" class="headerlink" title="为什么要分层"></a>为什么要分层</h4><p>把大问题分解<br><img src="/2022/07/05/Computer-Networks/2022-06-26-11-16-09.png" alt="1"></p>
+<h4 id="如何分层"><a href="#如何分层" class="headerlink" title="如何分层"></a>如何分层</h4><p>协议：对等实体之间<br>接口：两层之间<br>服务：下层给上层提供<br><img src="/2022/07/05/Computer-Networks/2022-06-26-11-21-57.png" alt="1"><br><img src="/2022/07/05/Computer-Networks/2022-06-26-11-24-47.png" alt="1"></p>
+<p><img src="/2022/07/05/Computer-Networks/2022-06-26-11-26-39.png" alt="1"><br><img src="/2022/07/05/Computer-Networks/2022-06-26-11-26-53.png" alt="1"></p>
+<h3 id="OSI参考模型"><a href="#OSI参考模型" class="headerlink" title="OSI参考模型"></a>OSI参考模型</h3><p><img src="/2022/07/05/Computer-Networks/2022-06-26-11-28-26.png" alt="1"></p>
+<h4 id="OSI参考模型-1"><a href="#OSI参考模型-1" class="headerlink" title="OSI参考模型"></a>OSI参考模型</h4><p><img src="/2022/07/05/Computer-Networks/2022-06-26-11-29-59.png" alt="1"><br><img src="/2022/07/05/Computer-Networks/2022-06-26-11-31-46.png" alt="1"><br><img src="/2022/07/05/Computer-Networks/2022-06-26-11-36-33.png" alt="1"><br><img src="/2022/07/05/Computer-Networks/2022-06-26-11-38-19.png" alt="1"></p>
+<p><img src="/2022/07/05/Computer-Networks/2022-06-26-18-57-22.png" alt="应用层"><br><img src="/2022/07/05/Computer-Networks/2022-06-26-18-59-24.png" alt="表示层"><br><img src="/2022/07/05/Computer-Networks/2022-06-26-19-01-50.png" alt="会话层"><br><img src="/2022/07/05/Computer-Networks/2022-06-26-19-06-42.png" alt="传输层"><br><img src="/2022/07/05/Computer-Networks/2022-06-26-19-09-36.png" alt="网络层"><br><img src="/2022/07/05/Computer-Networks/2022-06-26-19-11-29.png" alt="数据链路层"><br><img src="/2022/07/05/Computer-Networks/2022-06-26-19-13-10.png" alt="物理层"></p>
+<p>总结<br><img src="/2022/07/05/Computer-Networks/2022-06-26-19-14-51.png" alt="1"></p>
+<h3 id="TCP-IP参考模型和五层参考模型"><a href="#TCP-IP参考模型和五层参考模型" class="headerlink" title="TCP/IP参考模型和五层参考模型"></a>TCP/IP参考模型和五层参考模型</h3><p><img src="/2022/07/05/Computer-Networks/2022-06-26-19-17-45.png" alt="1"></p>
+<p>异同<br><img src="/2022/07/05/Computer-Networks/2022-06-26-19-18-50.png" alt="相同点"><br><img src="/2022/07/05/Computer-Networks/2022-06-26-19-20-50.png" alt="不同点"></p>
+<p>五层参考模型<br><img src="/2022/07/05/Computer-Networks/2022-06-26-19-21-37.png" alt="五层参考模型"><br><img src="/2022/07/05/Computer-Networks/2022-06-26-19-22-47.png" alt="1"></p>
+<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p><img src="/2022/07/05/Computer-Networks/2022-06-26-19-23-42.png" alt="1"></p>
+<h2 id="物理层"><a href="#物理层" class="headerlink" title="物理层"></a>物理层</h2><ol>
+<li>通信基础</li>
+<li>两个公式</li>
+<li>看图说话</li>
+<li>传输介质</li>
+<li>物理层设备</li>
+</ol>
+<h3 id="基本概念"><a href="#基本概念" class="headerlink" title="基本概念"></a>基本概念</h3><p><img src="/2022/07/05/Computer-Networks/2022-06-26-19-28-14.png" alt="1"></p>
+<h3 id="数据通信基础知识"><a href="#数据通信基础知识" class="headerlink" title="数据通信基础知识"></a>数据通信基础知识</h3><p>数据通信模型<br><img src="/2022/07/05/Computer-Networks/2022-06-26-19-31-26.png" alt="数据通信模型"></p>
+<p>数据通信相关术语<br><img src="/2022/07/05/Computer-Networks/2022-06-26-19-33-34.png" alt="数据通信相关术语"></p>
+<p>三种通信方式<br><img src="/2022/07/05/Computer-Networks/2022-06-26-19-35-26.png" alt="三种通信方式"></p>
+<p>两种数据传输方式<br><img src="/2022/07/05/Computer-Networks/2022-06-26-19-36-57.png" alt="两种数据传输方式"></p>
+<h3 id="码元-波特-速率-带宽"><a href="#码元-波特-速率-带宽" class="headerlink" title="码元 波特 速率 带宽"></a>码元 波特 速率 带宽</h3><p>码元<br><img src="/2022/07/05/Computer-Networks/2022-06-26-19-48-03.png" alt="码元"></p>
+<p>速率 波特 带宽<br><img src="/2022/07/05/Computer-Networks/2022-06-26-19-52-31.png" alt="速率 波特 带宽"></p>
+<p>习题<br><img src="/2022/07/05/Computer-Networks/2022-06-26-19-57-09.png" alt="习题"></p>
+<h3 id="奈氏准则和香农定理"><a href="#奈氏准则和香农定理" class="headerlink" title="奈氏准则和香农定理"></a>奈氏准则和香农定理</h3><p>失真<br><img src="/2022/07/05/Computer-Networks/2022-06-26-19-58-48.png" alt="失真"></p>
+<p>失真的一种现象——码间串扰<br><img src="/2022/07/05/Computer-Networks/2022-06-26-20-00-07.png" alt="1"><br>码元传输速率太快（参考上面的频率过大），码元间的界限难以区分</p>
+<p>奈氏准则（奈奎斯特定理） —— 解决码间串扰问题<br>只考虑带宽受限，没考虑噪声<br><img src="/2022/07/05/Computer-Networks/2022-06-26-20-04-56.png" alt="奈氏准则"><br><img src="/2022/07/05/Computer-Networks/2022-06-26-20-06-04.png" alt="奈氏准则练习"></p>
+<p>香农定理<br>带宽受限且有噪声<br><img src="/2022/07/05/Computer-Networks/2022-06-26-20-10-15.png" alt="香农定理"><br><img src="/2022/07/05/Computer-Networks/2022-06-26-20-11-45.png" alt="香农定理习题"></p>
+<p>奈氏准则和香农定理对比<br><img src="/2022/07/05/Computer-Networks/2022-06-26-20-13-29.png" alt="1"><br>如何选择？都能计算的情况下，两个都要求，取较小值<br><img src="/2022/07/05/Computer-Networks/2022-06-26-20-17-58.png" alt="1"></p>
+<h3 id="编码和调制"><a href="#编码和调制" class="headerlink" title="编码和调制"></a>编码和调制</h3><p>基带信号与宽带信号<br><img src="/2022/07/05/Computer-Networks/2022-06-26-20-33-27.png" alt="基带信号与宽带信号"></p>
+<p>编码与调制<br><img src="/2022/07/05/Computer-Networks/2022-06-26-20-35-17.png" alt="编码与调制"></p>
+<p>数字数据编码为数字信号<br><img src="/2022/07/05/Computer-Networks/2022-06-26-20-40-45.png" alt="数字数据编码为数字信号1"><br><img src="/2022/07/05/Computer-Networks/2022-06-26-20-45-14.png" alt="数字数据编码为数字信号2"><br><img src="/2022/07/05/Computer-Networks/2022-06-26-20-46-15.png" alt="数字数据编码为数字信号3"></p>
+<p>数字数据调制为模拟信号<br><img src="/2022/07/05/Computer-Networks/2022-06-26-21-17-00.png" alt="数字数据调制为模拟信号"></p>
+<p>模拟数据编码为数字信号<br><img src="/2022/07/05/Computer-Networks/2022-06-27-10-38-15.png" alt="模拟数据编码为数字信号"></p>
+<p>模拟数据调制为模拟信号<br><img src="/2022/07/05/Computer-Networks/2022-06-27-10-39-58.png" alt="模拟数据调制为模拟信号"></p>
+<p>总结<br><img src="/2022/07/05/Computer-Networks/2022-06-27-10-40-25.png" alt="总结"></p>
+<h3 id="物理层传输介质"><a href="#物理层传输介质" class="headerlink" title="物理层传输介质"></a>物理层传输介质</h3><p>传输介质及分类<br><img src="/2022/07/05/Computer-Networks/2022-06-27-10-42-24.png" alt="传输介质及分类"></p>
+<h4 id="导向性传输介质"><a href="#导向性传输介质" class="headerlink" title="导向性传输介质"></a>导向性传输介质</h4><ol>
+<li>双绞线<br><img src="/2022/07/05/Computer-Networks/2022-06-27-10-44-06.png" alt="双绞线"></li>
+<li>同轴电缆<br><img src="/2022/07/05/Computer-Networks/2022-06-27-10-45-16.png" alt="同轴电缆"></li>
+<li>光纤<br>需要光电转换<br><img src="/2022/07/05/Computer-Networks/2022-06-27-10-46-44.png" alt="光纤基本概念"><br>单模光纤和多模光纤<br><img src="/2022/07/05/Computer-Networks/2022-06-27-10-48-08.png" alt="单模光纤和多模光纤"><br>光缆<br><img src="/2022/07/05/Computer-Networks/2022-06-27-10-48-43.png" alt="光缆"><br>光线的特点<br><img src="/2022/07/05/Computer-Networks/2022-06-27-10-49-22.png" alt="光线的特点"></li>
+</ol>
+<h4 id="非导向性传输介质"><a href="#非导向性传输介质" class="headerlink" title="非导向性传输介质"></a>非导向性传输介质</h4><p><img src="/2022/07/05/Computer-Networks/2022-06-27-10-53-15.png" alt="非导向性传输介质"></p>
+<h4 id="总结-1"><a href="#总结-1" class="headerlink" title="总结"></a>总结</h4><p><img src="/2022/07/05/Computer-Networks/2022-06-27-10-52-35.png" alt="总结"></p>
+<h3 id="物理层设备"><a href="#物理层设备" class="headerlink" title="物理层设备"></a>物理层设备</h3><p>中继器<br><img src="/2022/07/05/Computer-Networks/2022-06-27-10-59-56.png" alt="中继器"><br>集线器（多口中继器）<br><img src="/2022/07/05/Computer-Networks/2022-06-27-11-03-25.png" alt="集线器（多口中继器）"></p>
+<h3 id="总结-2"><a href="#总结-2" class="headerlink" title="总结"></a>总结</h3><p><img src="/2022/07/05/Computer-Networks/2022-06-27-11-04-05.png" alt="总结"></p>
+<h2 id="数据链路层"><a href="#数据链路层" class="headerlink" title="数据链路层"></a>数据链路层</h2><ol>
+<li>链路层的功能</li>
+<li>链路层的两种信道</li>
+<li>局域网、广域网</li>
+<li>链路层的设备</li>
+</ol>
+<h3 id="数据链路层功能概述"><a href="#数据链路层功能概述" class="headerlink" title="数据链路层功能概述"></a>数据链路层功能概述</h3><p>数据链路层基本概念<br><img src="/2022/07/05/Computer-Networks/2022-06-27-11-08-25.png" alt="数据链路层基本概念"></p>
+<p>数据链路层功能概述<br><img src="/2022/07/05/Computer-Networks/2022-06-27-11-11-30.png" alt="数据链路层功能概述"></p>
+<h3 id="封装成帧和透明传输"><a href="#封装成帧和透明传输" class="headerlink" title="封装成帧和透明传输"></a>封装成帧和透明传输</h3><p>封装成帧<br><img src="/2022/07/05/Computer-Networks/2022-06-30-09-18-46.png" alt="封装成帧"></p>
+<p>透明传输<br><img src="/2022/07/05/Computer-Networks/2022-06-30-09-19-21.png" alt="1"></p>
+<ol>
+<li>字符计数法<br><img src="/2022/07/05/Computer-Networks/2022-06-30-09-20-20.png" alt="字符计数法"></li>
+<li>字符填充法<br><img src="/2022/07/05/Computer-Networks/2022-06-30-09-25-46.png" alt="字符填充法"><br><img src="/2022/07/05/Computer-Networks/2022-06-30-09-25-24.png" alt="字符填充法"></li>
+<li>零比特填充法<br><img src="/2022/07/05/Computer-Networks/2022-06-30-09-27-16.png" alt="零比特填充法"></li>
+<li>违规编码法<br><img src="/2022/07/05/Computer-Networks/2022-06-30-09-28-50.png" alt="违规编码法"></li>
+</ol>
+<h3 id="差错控制"><a href="#差错控制" class="headerlink" title="差错控制"></a>差错控制</h3><p>差错从何而来<br><img src="/2022/07/05/Computer-Networks/2022-06-30-09-31-29.png" alt="差错从何而来"></p>
+<p>差错控制<br><img src="/2022/07/05/Computer-Networks/2022-06-30-09-36-17.png" alt="差错控制"></p>
+<ol>
+<li><p>检错编码</p>
+<ol>
+<li>奇偶校验码<br><img src="/2022/07/05/Computer-Networks/2022-06-30-09-42-36.png" alt="奇偶校验码"></li>
+<li>CRC循环冗余码<br><img src="/2022/07/05/Computer-Networks/2022-06-30-09-47-01.png" alt="CRC循环冗余码"><br><img src="/2022/07/05/Computer-Networks/2022-06-30-09-47-28.png" alt="CRC循环冗余码"><br><img src="/2022/07/05/Computer-Networks/2022-06-30-09-49-42.png" alt="CRC循环冗余码"></li>
+</ol>
+</li>
+<li><p>纠错编码</p>
+<ol>
+<li>海明码<br><img src="/2022/07/05/Computer-Networks/2022-06-30-09-51-42.png" alt="海明码"><br><img src="/2022/07/05/Computer-Networks/2022-06-30-09-52-27.png" alt="1"><br><img src="/2022/07/05/Computer-Networks/2022-06-30-09-53-24.png" alt="2"><br><img src="/2022/07/05/Computer-Networks/2022-06-30-09-55-40.png" alt="3"><br><img src="/2022/07/05/Computer-Networks/2022-06-30-09-57-30.png" alt="4"></li>
+</ol>
+</li>
+</ol>
+<p>总结<br><img src="/2022/07/05/Computer-Networks/2022-06-30-09-57-47.png" alt="总结"></p>
+<h3 id="流量控制与可靠传输机制"><a href="#流量控制与可靠传输机制" class="headerlink" title="流量控制与可靠传输机制"></a>流量控制与可靠传输机制</h3><p>数据链路层的流量控制<br><img src="/2022/07/05/Computer-Networks/2022-06-30-10-19-22.png" alt="数据链路层的流量控制"></p>
+<p>流量控制方法<br><img src="/2022/07/05/Computer-Networks/2022-06-30-10-21-24.png" alt="流量控制方法"><br><img src="/2022/07/05/Computer-Networks/2022-06-30-10-21-48.png" alt="流量控制方法"><br>数据链路层的发送和接收窗口在传输过程中是固定的</p>
+<p>可靠传输、流量控制、滑动窗口的关系<br><img src="/2022/07/05/Computer-Networks/2022-06-30-10-23-37.png" alt="可靠传输、流量控制、滑动窗口的关系"></p>
+<p>总结<br><img src="/2022/07/05/Computer-Networks/2022-06-30-10-23-59.png" alt="总结"></p>
+<h4 id="停止-等待协议"><a href="#停止-等待协议" class="headerlink" title="停止-等待协议"></a>停止-等待协议</h4><p>停止-等待协议<br><img src="/2022/07/05/Computer-Networks/2022-06-30-10-27-51.png" alt="停止-等待协议"></p>
+<ol>
+<li>无差错情况<br><img src="/2022/07/05/Computer-Networks/2022-06-30-10-28-40.png" alt="无差错情况"></li>
+<li>有差错情况<ol>
+<li>数据帧丢失或检测到帧出错<br><img src="/2022/07/05/Computer-Networks/2022-06-30-10-31-04.png" alt="数据帧丢失或检测到帧出错"></li>
+<li>ACK丢失<br><img src="/2022/07/05/Computer-Networks/2022-06-30-10-31-45.png" alt="ACK丢失"></li>
+<li>ACK迟到<br><img src="/2022/07/05/Computer-Networks/2022-06-30-10-32-18.png" alt="ACK迟到"></li>
+</ol>
+</li>
+</ol>
+<p>停止-等待协议性能分析<br><img src="/2022/07/05/Computer-Networks/2022-06-30-10-33-38.png" alt="停止-等待协议性能分析"><br>信道利用率<br><img src="/2022/07/05/Computer-Networks/2022-06-30-10-36-54.png" alt="信道利用率"></p>
+<p>停等协议的弊端<br><img src="/2022/07/05/Computer-Networks/2022-06-30-11-04-28.png" alt="停等协议的弊端"></p>
+<p>总结<br><img src="/2022/07/05/Computer-Networks/2022-06-30-10-37-24.png" alt="总结"></p>
+<h4 id="后退N帧协议-GBN"><a href="#后退N帧协议-GBN" class="headerlink" title="后退N帧协议 (GBN)"></a>后退N帧协议 (GBN)</h4><p>停等协议的改进<br><img src="/2022/07/05/Computer-Networks/2022-06-30-11-05-21.png" alt="停等协议的改进"></p>
+<p>后退N帧协议中的滑动窗口<br><img src="/2022/07/05/Computer-Networks/2022-06-30-11-08-23.png" alt="后退N帧协议中的滑动窗口"></p>
+<p>GBN发送方必须响应的三件事<br><img src="/2022/07/05/Computer-Networks/2022-06-30-11-10-52.png" alt="GBN发送方必须响应的三件事"></p>
+<p>GBN接收方必须做的事<br><img src="/2022/07/05/Computer-Networks/2022-06-30-11-12-19.png" alt="GBN接收方必须做的事"></p>
+<p>运行中的GBN<br><img src="/2022/07/05/Computer-Networks/2022-06-30-11-14-24.png" alt="运行中的GBN"></p>
+<p>滑动窗口长度<br><img src="/2022/07/05/Computer-Networks/2022-06-30-11-15-37.png" alt="滑动窗口长度"></p>
+<p>GBN协议重点总结<br><img src="/2022/07/05/Computer-Networks/2022-06-30-11-17-05.png" alt="GBN协议重点总结"></p>
+<p>习题<br><img src="/2022/07/05/Computer-Networks/2022-06-30-11-18-46.png" alt="习题"></p>
+<p>GBN协议性能分析<br><img src="/2022/07/05/Computer-Networks/2022-06-30-11-19-07.png" alt="GBN协议性能分析"></p>
+<p>GBN协议的弊端<br><img src="/2022/07/05/Computer-Networks/2022-06-30-10-39-10.png" alt="GBN协议的弊端"></p>
+<p>总结<br><img src="/2022/07/05/Computer-Networks/2022-06-30-11-19-29.png" alt="总结"></p>
+<h4 id="选择重传-SR-Selective-Repeat"><a href="#选择重传-SR-Selective-Repeat" class="headerlink" title="选择重传 SR(Selective Repeat)"></a>选择重传 SR(Selective Repeat)</h4><p>选择重传协议中的滑动窗口<br><img src="/2022/07/05/Computer-Networks/2022-06-30-10-47-12.png" alt="选择重传协议中的滑动窗口"></p>
+<p>SR发送方必须响应的三件事<br><img src="/2022/07/05/Computer-Networks/2022-06-30-10-48-27.png" alt="SR发送方必须响应的三件事"></p>
+<p>SR接收方必须做的事<br><img src="/2022/07/05/Computer-Networks/2022-06-30-10-50-02.png" alt="SR接收方必须做的事"></p>
+<p>运行中的SR<br><img src="/2022/07/05/Computer-Networks/2022-06-30-10-52-07.png" alt="运行中的SR"><br>发送方只有接收到ACK，才会移动滑动窗口<br>接收方只有接收到（最左边的）帧，才会移动滑动窗口，不然就先缓存起来</p>
+<p>滑动窗口长度<br><img src="/2022/07/05/Computer-Networks/2022-06-30-11-00-27.png" alt="滑动窗口长度"></p>
+<p>SR协议重点总结<br><img src="/2022/07/05/Computer-Networks/2022-06-30-11-00-51.png" alt="SR协议重点总结"></p>
+<p>习题<br><img src="/2022/07/05/Computer-Networks/2022-06-30-11-02-44.png" alt="习题"></p>
+<p>总结<br><img src="/2022/07/05/Computer-Networks/2022-06-30-11-02-56.png" alt="总结"></p>
+<h3 id="介质访问控制"><a href="#介质访问控制" class="headerlink" title="介质访问控制"></a>介质访问控制</h3><p>传输数据使用的两种链路<br><img src="/2022/07/05/Computer-Networks/2022-06-30-11-22-49.png" alt="传输数据使用的两种链路"><br>星型一条链路断了，不影响其他，但是总线型不行</p>
+<p>介质访问控制<br><img src="/2022/07/05/Computer-Networks/2022-06-30-11-24-17.png" alt="介质访问控制"><br><img src="/2022/07/05/Computer-Networks/2022-06-30-20-53-37.png" alt="介质访问控制"></p>
+<h4 id="信道划分介质访问控制"><a href="#信道划分介质访问控制" class="headerlink" title="信道划分介质访问控制"></a>信道划分介质访问控制</h4><p>信道划分介质访问控制<br><img src="/2022/07/05/Computer-Networks/2022-06-30-11-25-33.png" alt="信道划分介质访问控制"></p>
+<p>信道划分介质访问控制分类<br><img src="/2022/07/05/Computer-Networks/2022-06-30-11-25-44.png" alt="信道划分介质访问控制分类"></p>
+<h5 id="1-频分多路复用-FDM"><a href="#1-频分多路复用-FDM" class="headerlink" title="1. 频分多路复用 FDM"></a>1. 频分多路复用 FDM</h5><p><img src="/2022/07/05/Computer-Networks/2022-06-30-11-26-37.png" alt="频分多路复用 FDM"></p>
+<h5 id="2-时分多路复用-TDM"><a href="#2-时分多路复用-TDM" class="headerlink" title="2. 时分多路复用 TDM"></a>2. 时分多路复用 TDM</h5><p><img src="/2022/07/05/Computer-Networks/2022-06-30-11-27-41.png" alt="时分多路复用 TDM"></p>
+<p>改进的时分复用——统计时分复用STDM<br><img src="/2022/07/05/Computer-Networks/2022-06-30-11-29-03.png" alt="改进的时分复用——统计时分复用STDM"></p>
+<h5 id="3-波分多路复用-WDM"><a href="#3-波分多路复用-WDM" class="headerlink" title="3. 波分多路复用 WDM"></a>3. 波分多路复用 WDM</h5><p><img src="/2022/07/05/Computer-Networks/2022-06-30-11-30-17.png" alt="波分多路复用 WDM"></p>
+<h5 id="4-码分多路复用-CDM"><a href="#4-码分多路复用-CDM" class="headerlink" title="4. 码分多路复用 CDM"></a>4. 码分多路复用 CDM</h5><p><img src="/2022/07/05/Computer-Networks/2022-06-30-11-34-20.png" alt="码分多路复用 CDM"></p>
+<h3 id="动态分配信道"><a href="#动态分配信道" class="headerlink" title="动态分配信道"></a>动态分配信道</h3><p><img src="/2022/07/05/Computer-Networks/2022-06-30-14-41-37.png" alt="动态分配信道"></p>
+<h4 id="1-ALOHA"><a href="#1-ALOHA" class="headerlink" title="1. ALOHA"></a>1. ALOHA</h4><p>ALOHA<br><img src="/2022/07/05/Computer-Networks/2022-06-30-14-42-59.png" alt="ALOHA"></p>
+<p>纯ALOHA协议<br><img src="/2022/07/05/Computer-Networks/2022-06-30-14-44-57.png" alt="纯ALOHA协议"></p>
+<p>时隙ALOHA协议<br><img src="/2022/07/05/Computer-Networks/2022-06-30-14-46-27.png" alt="时隙ALOHA协议"></p>
+<p>总结<br><img src="/2022/07/05/Computer-Networks/2022-06-30-14-47-09.png" alt="总结"></p>
+<h4 id="2-CSMA协议"><a href="#2-CSMA协议" class="headerlink" title="2. CSMA协议"></a>2. CSMA协议</h4><p>CSMA协议<br><img src="/2022/07/05/Computer-Networks/2022-06-30-14-49-00.png" alt="CSMA协议"></p>
+<p>1-坚持CSMA<br><img src="/2022/07/05/Computer-Networks/2022-06-30-14-50-08.png" alt="1-坚持CSMA"></p>
+<p>非坚持CSMA<br><img src="/2022/07/05/Computer-Networks/2022-06-30-14-52-42.png" alt="非坚持CSMA"></p>
+<p>p-坚持CSMA<br><img src="/2022/07/05/Computer-Networks/2022-06-30-14-54-16.png" alt="p-坚持CSMA"></p>
+<p>三种CSMA对比<br><img src="/2022/07/05/Computer-Networks/2022-06-30-14-55-43.png" alt="三种CSMA对比"></p>
+<h4 id="3-CSMA-CD协议"><a href="#3-CSMA-CD协议" class="headerlink" title="3. CSMA/CD协议"></a>3. CSMA/CD协议</h4><p>CSMA/CD协议<br><img src="/2022/07/05/Computer-Networks/2022-07-01-09-18-04.png" alt="CSMA/CD协议"></p>
+<p>传播时延对载波监听的影响<br><img src="/2022/07/05/Computer-Networks/2022-07-01-09-22-31.png" alt="传播时延对载波监听的影响"></p>
+<p>如何确定碰撞后的重传时机？<br><img src="/2022/07/05/Computer-Networks/2022-07-01-09-25-48.png" alt="如何确定碰撞后的重传时机？"><br><img src="/2022/07/05/Computer-Networks/2022-07-01-09-26-30.png" alt="习题"></p>
+<p>最小帧长问题<br><img src="/2022/07/05/Computer-Networks/2022-07-01-09-27-43.png" alt="最小帧长问题"></p>
+<p>总结<br><img src="/2022/07/05/Computer-Networks/2022-07-01-09-28-10.png" alt="总结"></p>
+<h4 id="4-CSMA-CA协议"><a href="#4-CSMA-CA协议" class="headerlink" title="4. CSMA/CA协议"></a>4. CSMA/CA协议</h4><p>CSMA/CA协议<br><img src="/2022/07/05/Computer-Networks/2022-06-30-21-03-17.png" alt="CSMA/CA协议"></p>
+<p>CSMA/CA协议工作原理<br><img src="/2022/07/05/Computer-Networks/2022-06-30-21-06-39.png" alt="CSMA/CA协议工作原理"></p>
+<p>CSMA/CD与CSMA/CA协议对比<br><img src="/2022/07/05/Computer-Networks/2022-06-30-21-07-24.png" alt="CSMA/CD与CSMA/CA协议对比"></p>
+<h4 id="5-轮询访问介质访问控制"><a href="#5-轮询访问介质访问控制" class="headerlink" title="5. 轮询访问介质访问控制"></a>5. 轮询访问介质访问控制</h4><p>轮询协议<br><img src="/2022/07/05/Computer-Networks/2022-06-30-20-57-00.png" alt="轮询协议"></p>
+<p>令牌传递协议<br><img src="/2022/07/05/Computer-Networks/2022-06-30-20-59-54.png" alt="令牌传递协议"></p>
+<h3 id="局域网基本概念和体系结构"><a href="#局域网基本概念和体系结构" class="headerlink" title="局域网基本概念和体系结构"></a>局域网基本概念和体系结构</h3><p>局域网<br><img src="/2022/07/05/Computer-Networks/2022-06-30-21-08-59.png" alt="局域网"></p>
+<h4 id="局域网拓扑结构"><a href="#局域网拓扑结构" class="headerlink" title="局域网拓扑结构"></a>局域网拓扑结构</h4><p><img src="/2022/07/05/Computer-Networks/2022-06-30-21-11-49.png" alt="局域网拓扑结构"></p>
+<h4 id="局域网传输介质"><a href="#局域网传输介质" class="headerlink" title="局域网传输介质"></a>局域网传输介质</h4><p><img src="/2022/07/05/Computer-Networks/2022-06-30-21-12-10.png" alt="局域网传输介质"></p>
+<h4 id="局域网介质访问控制方法"><a href="#局域网介质访问控制方法" class="headerlink" title="局域网介质访问控制方法"></a>局域网介质访问控制方法</h4><p><img src="/2022/07/05/Computer-Networks/2022-06-30-21-13-29.png" alt="局域网介质访问控制方法"></p>
+<p>局域网的分类<br><img src="/2022/07/05/Computer-Networks/2022-06-30-21-14-43.png" alt="局域网的分类"></p>
+<p>IEEE 802标准<br><img src="/2022/07/05/Computer-Networks/2022-06-30-21-17-23.png" alt="IEEE 802标准"></p>
+<p>MAC子层和LLC层<br><img src="/2022/07/05/Computer-Networks/2022-06-30-21-18-07.png" alt="MAC子层和LLC层"></p>
+<h4 id="总结-3"><a href="#总结-3" class="headerlink" title="总结"></a>总结</h4><p><img src="/2022/07/05/Computer-Networks/2022-06-30-21-18-27.png" alt="总结"></p>
+<h3 id="以太网"><a href="#以太网" class="headerlink" title="以太网"></a>以太网</h3><p>以太网<br><img src="/2022/07/05/Computer-Networks/2022-06-30-21-20-47.png" alt="以太网"></p>
+<p>以太网提供无连接、不可靠的服务<br><img src="/2022/07/05/Computer-Networks/2022-06-30-21-21-46.png" alt="以太网提供无连接、不可靠的服务"></p>
+<p>以太网传输介质与拓扑结构的发展<br><img src="/2022/07/05/Computer-Networks/2022-06-30-21-22-50.png" alt="以太网传输介质与拓扑结构的发展"></p>
+<p>10BASE-T以太网<br><img src="/2022/07/05/Computer-Networks/2022-06-30-21-23-39.png" alt="10BASE-T以太网"></p>
+<p>适配器与MAC地址<br><img src="/2022/07/05/Computer-Networks/2022-06-30-21-24-53.png" alt="适配器与MAC地址"><br>可以通过查MAC地址，看商品的商家（前24位）</p>
+<p>以太网MAC帧<br><img src="/2022/07/05/Computer-Networks/2022-06-30-21-28-26.png" alt="以太网MAC帧"></p>
+<p>高速以太网<br><img src="/2022/07/05/Computer-Networks/2022-06-30-21-29-26.png" alt="高速以太网"></p>
+<p>总结<br><img src="/2022/07/05/Computer-Networks/2022-06-30-21-29-35.png" alt="总结"></p>
+<h3 id="无线局域网"><a href="#无线局域网" class="headerlink" title="无线局域网"></a>无线局域网</h3><p>IEEE 802.11<br><img src="/2022/07/05/Computer-Networks/2022-06-30-21-30-51.png" alt="IEEE 802.11"></p>
+<p>802.11的MAC帧头格式<br><img src="/2022/07/05/Computer-Networks/2022-06-30-21-41-41.png" alt="802.11的MAC帧头格式"><br><img src="/2022/07/05/Computer-Networks/2022-06-30-21-41-54.png" alt="802.11的MAC帧头格式"></p>
+<h4 id="无线局域网的分类"><a href="#无线局域网的分类" class="headerlink" title="无线局域网的分类"></a>无线局域网的分类</h4><p>无线局域网的分类<br><img src="/2022/07/05/Computer-Networks/2022-06-30-21-43-00.png" alt="无线局域网的分类"></p>
+<p>有固定基础设施无线局域网<br><img src="/2022/07/05/Computer-Networks/2022-06-30-21-50-23.png" alt="有固定基础设施无线局域网"></p>
+<p>无固定基础设施无线局域网的自组织网络<br><img src="/2022/07/05/Computer-Networks/2022-06-30-21-50-55.png" alt="无固定基础设施无线局域网的自组织网络"></p>
+<h3 id="广域网"><a href="#广域网" class="headerlink" title="广域网"></a>广域网</h3><p>局域网只覆盖物理层和数据链路层，广域网覆盖到网络层。<br>局域网需要强调传输速率，广域网只强调资源共享。<br><img src="/2022/07/05/Computer-Networks/2022-07-01-09-41-38.png" alt="广域网"></p>
+<h4 id="PPP协议-一种广域网链路层协议"><a href="#PPP协议-一种广域网链路层协议" class="headerlink" title="PPP协议 一种广域网链路层协议"></a>PPP协议 一种广域网链路层协议</h4><p>PPP协议的特点<br><img src="/2022/07/05/Computer-Networks/2022-07-01-09-41-03.png" alt="PPP协议的特点"></p>
+<p>PPP协议应满足的要求<br><img src="/2022/07/05/Computer-Networks/2022-07-01-09-43-30.png" alt="PPP协议应满足的要求"></p>
+<p>PPP协议无需满足的要求<br><img src="/2022/07/05/Computer-Networks/2022-07-01-09-43-46.png" alt="PPP协议无需满足的要求"></p>
+<p>PPP协议的三个组成部分<br><img src="/2022/07/05/Computer-Networks/2022-07-01-09-44-46.png" alt="PPP协议的三个组成部分"></p>
+<p>PPP协议的状态图<br><img src="/2022/07/05/Computer-Networks/2022-07-01-09-45-19.png" alt="PPP协议的状态图"></p>
+<p>PPP协议的帧格式<br><img src="/2022/07/05/Computer-Networks/2022-07-01-09-46-24.png" alt="PPP协议的帧格式"></p>
+<h4 id="HDLC协议-一种广域网链路层协议"><a href="#HDLC协议-一种广域网链路层协议" class="headerlink" title="HDLC协议 一种广域网链路层协议"></a>HDLC协议 一种广域网链路层协议</h4><p>ISO制定的协议；用的不多<br><img src="/2022/07/05/Computer-Networks/2022-07-01-09-47-30.png" alt="ISO制定的协议"></p>
+<p>HDLC的站<br><img src="/2022/07/05/Computer-Networks/2022-07-01-09-48-13.png" alt="HDLC的站"></p>
+<p>HDLC的帧格式<br><img src="/2022/07/05/Computer-Networks/2022-07-01-09-49-10.png" alt="HDLC的帧格式"></p>
+<p>HDLC和PPP协议的对比<br><img src="/2022/07/05/Computer-Networks/2022-07-01-09-50-21.png" alt="HDLC和PPP协议的对比"></p>
+<p>总结<br><img src="/2022/07/05/Computer-Networks/2022-07-01-09-50-42.png" alt="总结"></p>
+<h3 id="数据链路层的设备"><a href="#数据链路层的设备" class="headerlink" title="数据链路层的设备"></a>数据链路层的设备</h3><p>网桥<br><img src="/2022/07/05/Computer-Networks/2022-07-01-09-55-43.png" alt="网桥"><br>（集线器将收到的帧对所有的接口转发，但是网桥只对目的接口转发）<br>网桥连接的设备依然是同一个局域网</p>
+<ol>
+<li>透明网桥<br><img src="/2022/07/05/Computer-Networks/2022-07-01-09-59-34.png" alt="透明网桥"></li>
+<li>源路由网桥<br><img src="/2022/07/05/Computer-Networks/2022-07-01-10-00-53.png" alt="源路由网桥"></li>
+</ol>
+<p>交换机<br><img src="/2022/07/05/Computer-Networks/2022-07-01-10-02-39.png" alt="交换机"><br>交换机的两种交换方式<br><img src="/2022/07/05/Computer-Networks/2022-07-01-10-03-31.png" alt="交换机的两种交换方式"></p>
+<p>冲突域和广播域<br><img src="/2022/07/05/Computer-Networks/2022-07-01-10-04-21.png" alt="冲突域和广播域"><br><img src="/2022/07/05/Computer-Networks/2022-07-01-10-05-27.png" alt="习题"></p>
+<p>总结<br>物理层扩展以太网，导致冲突可能性变大，数据传播效率降低，所以在链路层扩展<br><img src="/2022/07/05/Computer-Networks/2022-07-01-10-05-42.png" alt="总结"></p>
+<h3 id="总结-4"><a href="#总结-4" class="headerlink" title="总结"></a>总结</h3><p><img src="/2022/07/05/Computer-Networks/2022-07-01-10-07-04.png" alt="总结"></p>
+<h2 id="网络层"><a href="#网络层" class="headerlink" title="网络层"></a>网络层</h2><h3 id="网络层功能概述"><a href="#网络层功能概述" class="headerlink" title="网络层功能概述"></a>网络层功能概述</h3><p><img src="/2022/07/05/Computer-Networks/2022-07-01-10-10-53.png" alt="网络层功能概述"></p>
+<h3 id="数据交换方式"><a href="#数据交换方式" class="headerlink" title="数据交换方式"></a>数据交换方式</h3><p>为什么要数据交换<br><img src="/2022/07/05/Computer-Networks/2022-07-01-10-12-43.png" alt="为什么要数据交换"></p>
+<p>数据交换方式<br><img src="/2022/07/05/Computer-Networks/2022-07-01-10-12-59.png" alt="数据交换方式"></p>
+<h4 id="1-电路交换"><a href="#1-电路交换" class="headerlink" title="1. 电路交换"></a>1. 电路交换</h4><p><img src="/2022/07/05/Computer-Networks/2022-07-01-10-16-08.png" alt="电路交换"></p>
+<h4 id="2-报文交换"><a href="#2-报文交换" class="headerlink" title="2. 报文交换"></a>2. 报文交换</h4><p><img src="/2022/07/05/Computer-Networks/2022-07-01-10-18-02.png" alt="报文交换"></p>
+<h4 id="3-分组交换"><a href="#3-分组交换" class="headerlink" title="3. 分组交换"></a>3. 分组交换</h4><p>在报文交换的基础上，对报文进行了切割<br><img src="/2022/07/05/Computer-Networks/2022-07-01-10-20-25.png" alt="分组交换"></p>
+<h5 id="数据报方式-amp-虚电路方式"><a href="#数据报方式-amp-虚电路方式" class="headerlink" title="数据报方式&amp;虚电路方式"></a>数据报方式&amp;虚电路方式</h5><p><img src="/2022/07/05/Computer-Networks/2022-07-01-10-27-36.png" alt="数据报方式&amp;虚电路方式"></p>
+<p>几种传输单元名词辨析<br><img src="/2022/07/05/Computer-Networks/2022-07-01-10-29-20.png" alt="几种传输单元名词辨析"></p>
+<p>数据报<br><img src="/2022/07/05/Computer-Networks/2022-07-01-10-31-32.png" alt="数据报"></p>
+<p>虚电路<br><img src="/2022/07/05/Computer-Networks/2022-07-01-10-34-11.png" alt="虚电路"></p>
+<p>数据包&amp;虚电路<br><img src="/2022/07/05/Computer-Networks/2022-07-01-10-35-06.png" alt="数据包&amp;虚电路"></p>
+<h4 id="报文交换和分组交换比较"><a href="#报文交换和分组交换比较" class="headerlink" title="报文交换和分组交换比较"></a>报文交换和分组交换比较</h4><p><img src="/2022/07/05/Computer-Networks/2022-07-01-10-25-25.png" alt="报文交换和分组交换比较"></p>
+<h4 id="三种交换方式比较"><a href="#三种交换方式比较" class="headerlink" title="三种交换方式比较"></a>三种交换方式比较</h4><p><img src="/2022/07/05/Computer-Networks/2022-07-01-10-26-22.png" alt="三种交换方式比较"></p>
+<h3 id="路由算法与路由协议概述"><a href="#路由算法与路由协议概述" class="headerlink" title="路由算法与路由协议概述"></a>路由算法与路由协议概述</h3><p>路由算法<br><img src="/2022/07/05/Computer-Networks/2022-07-01-11-00-06.png" alt="路由算法"><br>路由算法的分类<br><img src="/2022/07/05/Computer-Networks/2022-07-01-11-03-05.png" alt="路由算法的分类"><br>分层次的路由选择协议<br><img src="/2022/07/05/Computer-Networks/2022-07-01-11-06-48.png" alt="分层次的路由选择协议"></p>
+<h4 id="1-RIP协议"><a href="#1-RIP协议" class="headerlink" title="1. RIP协议"></a>1. RIP协议</h4><p>RIP协议<br><img src="/2022/07/05/Computer-Networks/2022-07-03-21-10-21.png" alt="RIP协议"></p>
+<p>RIP协议额谁交换，多久交换一次，交换什么<br><img src="/2022/07/05/Computer-Networks/2022-07-03-21-12-45.png" alt="RIP协议额谁交换，多久交换一次，交换什么"></p>
+<p>距离向量算法<br><img src="/2022/07/05/Computer-Networks/2022-07-03-21-15-20.png" alt="距离向量算法"><br>距离向量算法习题1<br><img src="/2022/07/05/Computer-Networks/2022-07-03-21-17-14.png" alt="距离向量算法习题1"><br>距离向量算法习题2<br><img src="/2022/07/05/Computer-Networks/2022-07-03-21-33-48.png" alt="距离向量算法习题2"></p>
+<p>RIP协议的报文格式<br><img src="/2022/07/05/Computer-Networks/2022-07-03-21-35-02.png" alt="RIP协议的报文格式"></p>
+<p>RIP协议好消息传得快，坏消息传得慢<br><img src="/2022/07/05/Computer-Networks/2022-07-03-21-36-32.png" alt="RIP协议好消息传得快，坏消息传得慢"></p>
+<p>总结<br><img src="/2022/07/05/Computer-Networks/2022-07-03-21-36-44.png" alt="总结"></p>
+<h4 id="2-OSPF协议"><a href="#2-OSPF协议" class="headerlink" title="2. OSPF协议"></a>2. OSPF协议</h4><p>OSPF协议<br><img src="/2022/07/05/Computer-Networks/2022-07-03-21-39-19.png" alt="OSPF协议"></p>
+<p>链路状态路由算法<br><img src="/2022/07/05/Computer-Networks/2022-07-03-21-41-24.png" alt="链路状态路由算法"></p>
+<p>OSPF区域<br><img src="/2022/07/05/Computer-Networks/2022-07-03-21-42-27.png" alt="OSPF区域"></p>
+<p>OSPF分组<br><img src="/2022/07/05/Computer-Networks/2022-07-03-21-43-08.png" alt="OSPF分组"></p>
+<p>OSPF其他特点<br><img src="/2022/07/05/Computer-Networks/2022-07-03-21-43-51.png" alt="OSPF其他特点"></p>
+<h4 id="3-BGP协议"><a href="#3-BGP协议" class="headerlink" title="3. BGP协议"></a>3. BGP协议</h4><p>BGP协议<br><img src="/2022/07/05/Computer-Networks/2022-07-03-21-45-11.png" alt="BGP协议"></p>
+<p>BGP协议交换信息的过程<br><img src="/2022/07/05/Computer-Networks/2022-07-03-21-46-05.png" alt="BGP协议交换信息的过程1"><br><img src="/2022/07/05/Computer-Networks/2022-07-03-21-46-42.png" alt="BGP协议交换信息的过程2"></p>
+<p>BGP协议报文格式<br><img src="/2022/07/05/Computer-Networks/2022-07-03-21-47-09.png" alt="BGP协议报文格式"></p>
+<p>BGP协议的特点<br><img src="/2022/07/05/Computer-Networks/2022-07-03-21-47-31.png" alt="BGP协议的特点"></p>
+<p>BGP-4的四种报文<br><img src="/2022/07/05/Computer-Networks/2022-07-03-21-48-22.png" alt="BGP-4的四种报文"></p>
+<h4 id="三种协议比较"><a href="#三种协议比较" class="headerlink" title="三种协议比较"></a>三种协议比较</h4><p>三种协议比较<br><img src="/2022/07/05/Computer-Networks/2022-07-03-21-49-20.png" alt="三种协议比较1"><br><img src="/2022/07/05/Computer-Networks/2022-07-03-21-49-33.png" alt="三种协议比较2"></p>
+<h3 id="IP数据报"><a href="#IP数据报" class="headerlink" title="IP数据报"></a>IP数据报</h3><h4 id="IP数据包的格式"><a href="#IP数据包的格式" class="headerlink" title="IP数据包的格式"></a>IP数据包的格式</h4><p>TCP/IP协议栈<br><img src="/2022/07/05/Computer-Networks/2022-07-01-11-09-17.png" alt="TCP/IP协议栈"></p>
+<p>IP数据报格式<br><img src="/2022/07/05/Computer-Networks/2022-07-01-11-10-05.png" alt="IP数据报格式"><br><img src="/2022/07/05/Computer-Networks/2022-07-01-11-19-02.png" alt="IP数据报格式"></p>
+<h4 id="IP数据报分片"><a href="#IP数据报分片" class="headerlink" title="IP数据报分片"></a>IP数据报分片</h4><p>最大传送单元MTU<br><img src="/2022/07/05/Computer-Networks/2022-07-01-11-20-22.png" alt="最大传送单元MTU"></p>
+<p>IP数据报格式<br><img src="/2022/07/05/Computer-Networks/2022-07-01-11-23-04.png" alt="IP数据报格式"></p>
+<p>IP数据报分片例题<br><img src="/2022/07/05/Computer-Networks/2022-07-01-11-26-22.png" alt="IP数据报分片例题"></p>
+<p>几个单位注意<br><img src="/2022/07/05/Computer-Networks/2022-07-01-11-27-06.png" alt="几个单位注意"></p>
+<h3 id="IPv4地址"><a href="#IPv4地址" class="headerlink" title="IPv4地址"></a>IPv4地址</h3><p>IP编址的历史阶段<br><img src="/2022/07/05/Computer-Networks/2022-07-01-11-30-04.png" alt="IP编址的历史阶段"></p>
+<h4 id="分类的IP地址"><a href="#分类的IP地址" class="headerlink" title="分类的IP地址"></a>分类的IP地址</h4><p>IP地址<br><img src="/2022/07/05/Computer-Networks/2022-07-01-14-19-12.png" alt="IP地址"></p>
+<p>互联网中的IP地址<br><img src="/2022/07/05/Computer-Networks/2022-07-01-14-21-15.png" alt="互联网中的IP地址"></p>
+<p>分类的IP地址<br><img src="/2022/07/05/Computer-Networks/2022-07-01-14-22-08.png" alt="分类的IP地址"></p>
+<p>特殊的IP地址<br><img src="/2022/07/05/Computer-Networks/2022-07-01-14-23-59.png" alt="特殊的IP地址"></p>
+<p>私有IP地址 用于NAT<br><img src="/2022/07/05/Computer-Networks/2022-07-01-14-26-22.png" alt="私有IP地址"></p>
+<p>最大可用网络数和最大主机数<br>最大可用网络数，只有A类网络要多减去全1，因为那是环回地址<br><img src="/2022/07/05/Computer-Networks/2022-07-01-14-29-25.png" alt="最大可用网络数和最大主机数"></p>
+<h4 id="子网划分和子网掩码"><a href="#子网划分和子网掩码" class="headerlink" title="子网划分和子网掩码"></a>子网划分和子网掩码</h4><p>为什么要子网划分<br><img src="/2022/07/05/Computer-Networks/2022-07-01-14-39-36.png" alt="为什么要子网划分"></p>
+<p>子网划分<br><img src="/2022/07/05/Computer-Networks/2022-07-01-14-40-57.png" alt="子网划分"></p>
+<p>举例<br><img src="/2022/07/05/Computer-Networks/2022-07-01-14-41-46.png" alt="举例"></p>
+<p>子网掩码<br><img src="/2022/07/05/Computer-Networks/2022-07-01-14-43-29.png" alt="子网掩码"><br>习题<br><img src="/2022/07/05/Computer-Networks/2022-07-01-14-46-25.png" alt="习题"><br>习题<br>广播分组，主机号全1<br><img src="/2022/07/05/Computer-Networks/2022-07-01-14-52-19.png" alt="习题"></p>
+<p>使用子网时的分组转发<br><img src="/2022/07/05/Computer-Networks/2022-07-01-14-58-51.png" alt="使用子网时的分组转发"></p>
+<h4 id="无分类编址CIDR"><a href="#无分类编址CIDR" class="headerlink" title="无分类编址CIDR"></a>无分类编址CIDR</h4><p>无分类编址CIDR<br><img src="/2022/07/05/Computer-Networks/2022-07-01-15-40-52.png" alt="无分类编址CIDR"><br>习题<br><img src="/2022/07/05/Computer-Networks/2022-07-01-15-42-29.png" alt="习题"></p>
+<p>构成超网<br><img src="/2022/07/05/Computer-Networks/2022-07-01-15-45-01.png" alt="构成超网"></p>
+<p>最长前缀匹配<br><img src="/2022/07/05/Computer-Networks/2022-07-01-15-47-35.png" alt="最长前缀匹配"><br>习题<br><img src="/2022/07/05/Computer-Networks/2022-07-01-15-50-03.png" alt="习题"></p>
+<h4 id="网络地址转换NAT"><a href="#网络地址转换NAT" class="headerlink" title="网络地址转换NAT"></a>网络地址转换NAT</h4><p>私有IP地址，路由器对目的地址是这些的一律不进行转发<br><img src="/2022/07/05/Computer-Networks/2022-07-01-14-31-05.png" alt="私有IP地址"></p>
+<p>网络地址转换NAT<br><img src="/2022/07/05/Computer-Networks/2022-07-01-14-38-04.png" alt="网络地址转换NAT"></p>
+<h3 id="ARP协议"><a href="#ARP协议" class="headerlink" title="ARP协议"></a>ARP协议</h3><p>局域网内部<br><img src="/2022/07/05/Computer-Networks/2022-07-01-16-00-55.png" alt="局域网内部"></p>
+<p>不在一个网段内的数据发送<br><img src="/2022/07/05/Computer-Networks/2022-07-01-16-06-40.png" alt="不在一个网段内的数据发送"></p>
+<p>ARP协议<br><img src="/2022/07/05/Computer-Networks/2022-07-01-16-09-40.png" alt="ARP协议"><br>习题<br><img src="/2022/07/05/Computer-Networks/2022-07-01-16-11-34.png" alt="习题"></p>
+<h3 id="DHCP协议"><a href="#DHCP协议" class="headerlink" title="DHCP协议"></a>DHCP协议</h3><p>DHCP协议<br><img src="/2022/07/05/Computer-Networks/2022-07-03-20-42-21.png" alt="DHCP协议"></p>
+<h3 id="ICMP协议"><a href="#ICMP协议" class="headerlink" title="ICMP协议"></a>ICMP协议</h3><p>网际控制报文协议 ICMP协议<br><img src="/2022/07/05/Computer-Networks/2022-07-03-20-43-59.png" alt="ICMP协议"></p>
+<ol>
+<li>ICMP差错报告报文<br><img src="/2022/07/05/Computer-Networks/2022-07-03-20-46-25.png" alt="ICMP差错报告报文"><br>ICMP差错报告报文数据字段<br><img src="/2022/07/05/Computer-Networks/2022-07-03-20-46-40.png" alt="ICMP差错报告报文数据字段"><br>不应发送ICMP差错报文的情况<br><img src="/2022/07/05/Computer-Networks/2022-07-03-20-47-52.png" alt="不应发送ICMP差错报文的情况"></li>
+<li>ICMP询问报文<br><img src="/2022/07/05/Computer-Networks/2022-07-03-20-49-10.png" alt="ICMP询问报文"><br>ICMP的应用<br><img src="/2022/07/05/Computer-Networks/2022-07-03-20-50-55.png" alt="ICMP的应用"></li>
+</ol>
+<h3 id="IPv6"><a href="#IPv6" class="headerlink" title="IPv6"></a>IPv6</h3><p>为什么有IPv6<br><img src="/2022/07/05/Computer-Networks/2022-07-03-20-52-07.png" alt="为什么有IPv6"></p>
+<p>IPv6数据报格式<br><img src="/2022/07/05/Computer-Networks/2022-07-03-20-52-49.png" alt="1"><br><img src="/2022/07/05/Computer-Networks/2022-07-03-20-55-15.png" alt="2"></p>
+<p>IPv4和IPv6<br><img src="/2022/07/05/Computer-Networks/2022-07-03-20-57-09.png" alt="IPv4和IPv6"></p>
+<p>IPv6地址表示形式<br><img src="/2022/07/05/Computer-Networks/2022-07-03-20-58-05.png" alt="IPv6地址表示形式"></p>
+<p>IPv6基本地址类型<br><img src="/2022/07/05/Computer-Networks/2022-07-03-20-58-57.png" alt="IPv6基本地址类型"></p>
+<p>IPv6向IPv4过渡的策略<br><img src="/2022/07/05/Computer-Networks/2022-07-03-21-00-30.png" alt="IPv6向IPv4过渡的策略"></p>
+<p>总结<br><img src="/2022/07/05/Computer-Networks/2022-07-03-21-00-49.png" alt="总结"></p>
+<h3 id="IP组播"><a href="#IP组播" class="headerlink" title="IP组播"></a>IP组播</h3><p>IP数据报的三种传播方式<br><img src="/2022/07/05/Computer-Networks/2022-07-03-21-53-12.png" alt="IP数据报的三种传播方式"></p>
+<ol>
+<li>单播<br><img src="/2022/07/05/Computer-Networks/2022-07-03-22-03-45.png" alt="单播"></li>
+<li>多播<br><img src="/2022/07/05/Computer-Networks/2022-07-03-22-04-01.png" alt="多播"></li>
+</ol>
+<p>IP组播地址<br><img src="/2022/07/05/Computer-Networks/2022-07-03-22-07-16.png" alt="IP组播地址"></p>
+<p>硬件组播<br><img src="/2022/07/05/Computer-Networks/2022-07-03-22-09-33.png" alt="硬件组播"></p>
+<p>IGMP协议与组播路由选择协议<br><img src="/2022/07/05/Computer-Networks/2022-07-03-22-10-24.png" alt="IGMP协议与组播路由选择协议"></p>
+<h4 id="网际组管理协议-IGMP协议"><a href="#网际组管理协议-IGMP协议" class="headerlink" title="网际组管理协议 IGMP协议"></a>网际组管理协议 IGMP协议</h4><p>网际组管理协议<br><img src="/2022/07/05/Computer-Networks/2022-07-03-22-11-31.png" alt="网际组管理协议"></p>
+<p>IGMP在TCP/IP协议栈的位置<br><img src="/2022/07/05/Computer-Networks/2022-07-03-22-11-51.png" alt="IGMP在TCP/IP协议栈的位置"></p>
+<p>IGMP的过程<br><img src="/2022/07/05/Computer-Networks/2022-07-03-22-13-16.png" alt="IGMP的过程"></p>
+<h4 id="组播路由选择协议"><a href="#组播路由选择协议" class="headerlink" title="组播路由选择协议"></a>组播路由选择协议</h4><p>组播路由选择协议<br><img src="/2022/07/05/Computer-Networks/2022-07-03-22-13-35.png" alt="组播路由选择协议1"><br><img src="/2022/07/05/Computer-Networks/2022-07-03-22-13-59.png" alt="组播路由选择协议2"></p>
+<p>常用算法<br><img src="/2022/07/05/Computer-Networks/2022-07-03-22-14-22.png" alt="常用算法"></p>
+<p>总结<br><img src="/2022/07/05/Computer-Networks/2022-07-03-22-14-39.png" alt="总结"></p>
+<h3 id="移动IP"><a href="#移动IP" class="headerlink" title="移动IP"></a>移动IP</h3><p>移动IP相关术语<br><img src="/2022/07/05/Computer-Networks/2022-07-04-08-37-44.png" alt="移动IP相关术语"></p>
+<p>移动IP通信过程<br><img src="/2022/07/05/Computer-Networks/2022-07-04-08-41-08.png" alt="移动IP通信过程"></p>
+<h3 id="网络层设备"><a href="#网络层设备" class="headerlink" title="网络层设备"></a>网络层设备</h3><p>路由器<br><img src="/2022/07/05/Computer-Networks/2022-07-04-08-42-52.png" alt="路由器"></p>
+<p>输入端口对线路上收到的分组的处理<br><img src="/2022/07/05/Computer-Networks/2022-07-04-08-43-51.png" alt="输入端口对线路上收到的分组的处理"></p>
+<p>输出端口将交换结构传来的分组发送到线路<br><img src="/2022/07/05/Computer-Networks/2022-07-04-08-44-34.png" alt="输出端口将交换结构传来的分组发送到线路"></p>
+<p>三层设备的区别<br><img src="/2022/07/05/Computer-Networks/2022-07-04-08-45-36.png" alt="三层设备的区别"></p>
+<p>路由表与路由转发<br><img src="/2022/07/05/Computer-Networks/2022-07-04-08-46-39.png" alt="路由表与路由转发"></p>
+<h3 id="总结-5"><a href="#总结-5" class="headerlink" title="总结"></a>总结</h3><p><img src="/2022/07/05/Computer-Networks/2022-07-04-08-54-05.png" alt="总结"></p>
+<h2 id="传输层"><a href="#传输层" class="headerlink" title="传输层"></a>传输层</h2><p>传输层<br><img src="/2022/07/05/Computer-Networks/2022-07-04-08-57-12.png" alt="传输层"></p>
+<p>传输层的两个协议<br><img src="/2022/07/05/Computer-Networks/2022-07-04-08-58-07.png" alt="传输层的两个协议"></p>
+<p>传输层的寻址与端口<br><img src="/2022/07/05/Computer-Networks/2022-07-04-09-01-04.png" alt="传输层的寻址与端口1"><br><img src="/2022/07/05/Computer-Networks/2022-07-04-09-01-24.png" alt="传输层的寻址与端口2"></p>
+<h3 id="1-UDP"><a href="#1-UDP" class="headerlink" title="1. UDP"></a>1. UDP</h3><p>UDP<br><img src="/2022/07/05/Computer-Networks/2022-07-04-09-04-20.png" alt="UDP"></p>
+<p>UDP首部格式<br><img src="/2022/07/05/Computer-Networks/2022-07-04-09-05-31.png" alt="UDP首部格式"></p>
+<p>UDP校验<br><img src="/2022/07/05/Computer-Networks/2022-07-04-09-06-44.png" alt="UDP校验1"><br><img src="/2022/07/05/Computer-Networks/2022-07-04-09-08-15.png" alt="UDP校验2"></p>
+<h3 id="2-TCP"><a href="#2-TCP" class="headerlink" title="2. TCP"></a>2. TCP</h3><p>TCP协议的特点<br><img src="/2022/07/05/Computer-Networks/2022-07-04-09-10-15.png" alt="TCP协议的特点"></p>
+<p>TCP报文段首部格式<br><img src="/2022/07/05/Computer-Networks/2022-07-04-09-14-48.png" alt="TCP报文段首部格式1"><br><img src="/2022/07/05/Computer-Networks/2022-07-04-09-16-04.png" alt="TCP报文段首部格式2"><br><img src="/2022/07/05/Computer-Networks/2022-07-04-09-18-35.png" alt="TCP报文段首部格式3"></p>
+<h4 id="TCP连接管理"><a href="#TCP连接管理" class="headerlink" title="TCP连接管理"></a>TCP连接管理</h4><p>TCP连接管理<br><img src="/2022/07/05/Computer-Networks/2022-07-04-09-19-49.png" alt="TCP连接管理"></p>
+<p>TCP连接的建立<br><img src="/2022/07/05/Computer-Networks/2022-07-04-09-22-50.png" alt="TCP连接的建立"></p>
+<p>SYN洪范攻击<br><img src="/2022/07/05/Computer-Networks/2022-07-04-09-23-27.png" alt="SYN洪范攻击"></p>
+<p>TCP的连接释放<br><img src="/2022/07/05/Computer-Networks/2022-07-04-09-25-55.png" alt="TCP的连接释放"></p>
+<h4 id="TCP可靠传输"><a href="#TCP可靠传输" class="headerlink" title="TCP可靠传输"></a>TCP可靠传输</h4><p><img src="/2022/07/05/Computer-Networks/2022-07-04-09-52-24.png" alt="TCP可靠传输"></p>
+<p>序号<br><img src="/2022/07/05/Computer-Networks/2022-07-04-09-45-26.png" alt="序号"></p>
+<p>确认<br><img src="/2022/07/05/Computer-Networks/2022-07-04-09-47-18.png" alt="确认"></p>
+<p>重传<br><img src="/2022/07/05/Computer-Networks/2022-07-04-09-49-29.png" alt="重传"><br><img src="/2022/07/05/Computer-Networks/2022-07-04-09-51-06.png" alt="重传"></p>
+<h4 id="TCP流量控制"><a href="#TCP流量控制" class="headerlink" title="TCP流量控制"></a>TCP流量控制</h4><p>TCP流量控制<br><img src="/2022/07/05/Computer-Networks/2022-07-04-09-53-57.png" alt="TCP流量控制"><br><img src="/2022/07/05/Computer-Networks/2022-07-04-09-59-03.png" alt="TCP流量控制"></p>
+<h4 id="TCP拥塞控制"><a href="#TCP拥塞控制" class="headerlink" title="TCP拥塞控制"></a>TCP拥塞控制</h4><p>TCP拥塞控制<br><img src="/2022/07/05/Computer-Networks/2022-07-04-10-02-10.png" alt="TCP拥塞控制"></p>
+<p>拥塞控制的四种方法<br><img src="/2022/07/05/Computer-Networks/2022-07-04-10-03-18.png" alt="拥塞控制的四种方法"></p>
+<p>慢开始和拥塞避免<br><img src="/2022/07/05/Computer-Networks/2022-07-04-10-07-40.png" alt="慢开始和拥塞避免"></p>
+<p>快重传和快恢复<br><img src="/2022/07/05/Computer-Networks/2022-07-04-10-09-22.png" alt="快重传和快恢复"></p>
+<h3 id="总结-6"><a href="#总结-6" class="headerlink" title="总结"></a>总结</h3><p><img src="/2022/07/05/Computer-Networks/2022-07-04-10-11-39.png" alt="总结"></p>
+<h2 id="应用层"><a href="#应用层" class="headerlink" title="应用层"></a>应用层</h2><p>应用层<br><img src="/2022/07/05/Computer-Networks/2022-07-04-10-12-53.png" alt="应用层"></p>
+<h3 id="网络应用模型"><a href="#网络应用模型" class="headerlink" title="网络应用模型"></a>网络应用模型</h3><p><img src="/2022/07/05/Computer-Networks/2022-07-04-10-13-15.png" alt="网络应用模型"></p>
+<h4 id="1-客户-服务器模型"><a href="#1-客户-服务器模型" class="headerlink" title="1. 客户/服务器模型"></a>1. 客户/服务器模型</h4><p><img src="/2022/07/05/Computer-Networks/2022-07-04-10-14-32.png" alt="客户/服务器模型"></p>
+<h4 id="2-P2P模型"><a href="#2-P2P模型" class="headerlink" title="2. P2P模型"></a>2. P2P模型</h4><p><img src="/2022/07/05/Computer-Networks/2022-07-04-10-16-32.png" alt="P2P模型"></p>
+<h3 id="DNS系统"><a href="#DNS系统" class="headerlink" title="DNS系统"></a>DNS系统</h3><p>域名<br><img src="/2022/07/05/Computer-Networks/2022-07-04-10-23-13.png" alt="域名1"><br><img src="/2022/07/05/Computer-Networks/2022-07-04-10-23-31.png" alt="域名2"></p>
+<p>域名服务器<br><img src="/2022/07/05/Computer-Networks/2022-07-04-10-28-41.png" alt="域名服务器"></p>
+<p>域名解析过程<br><img src="/2022/07/05/Computer-Networks/2022-07-04-10-33-45.png" alt="域名解析过程"></p>
+<h3 id="文件传送协议"><a href="#文件传送协议" class="headerlink" title="文件传送协议"></a>文件传送协议</h3><p><img src="/2022/07/05/Computer-Networks/2022-07-04-10-37-40.png" alt="文件传送协议"></p>
+<h4 id="1-FTP"><a href="#1-FTP" class="headerlink" title="1. FTP"></a>1. FTP</h4><p><img src="/2022/07/05/Computer-Networks/2022-07-04-10-38-01.png" alt="FTP"></p>
+<p>FTP服务器和用户端<br><img src="/2022/07/05/Computer-Networks/2022-07-04-10-38-43.png" alt="FTP服务器和用户端"></p>
+<p>FTP工作原理<br><img src="/2022/07/05/Computer-Networks/2022-07-04-10-40-40.png" alt="FTP工作原理1"><br><img src="/2022/07/05/Computer-Networks/2022-07-04-10-42-17.png" alt="FTP工作原理2"><br><img src="/2022/07/05/Computer-Networks/2022-07-04-10-43-40.png" alt="FTP传输模式"></p>
+<h4 id="2-电子邮件"><a href="#2-电子邮件" class="headerlink" title="2. 电子邮件"></a>2. 电子邮件</h4><p>电子邮件系统概述-组成结构<br><img src="/2022/07/05/Computer-Networks/2022-07-04-10-57-00.png" alt="电子邮件系统概述-组成结构1"><br><img src="/2022/07/05/Computer-Networks/2022-07-04-10-57-25.png" alt="电子邮件系统概述-组成结构2"></p>
+<h5 id="SMTP"><a href="#SMTP" class="headerlink" title="SMTP"></a>SMTP</h5><p><img src="/2022/07/05/Computer-Networks/2022-07-04-10-58-14.png" alt="SMTP"><br><img src="/2022/07/05/Computer-Networks/2022-07-04-11-00-21.png" alt="SMTP"><br><img src="/2022/07/05/Computer-Networks/2022-07-04-11-01-29.png" alt="SMTP"></p>
+<h5 id="POP3"><a href="#POP3" class="headerlink" title="POP3"></a>POP3</h5><p><img src="/2022/07/05/Computer-Networks/2022-07-04-11-02-29.png" alt="POP3"></p>
+<h5 id="IMAP"><a href="#IMAP" class="headerlink" title="IMAP"></a>IMAP</h5><p><img src="/2022/07/05/Computer-Networks/2022-07-04-11-03-00.png" alt="IMAP"></p>
+<h5 id="基于万维网的电子邮件"><a href="#基于万维网的电子邮件" class="headerlink" title="基于万维网的电子邮件"></a>基于万维网的电子邮件</h5><p><img src="/2022/07/05/Computer-Networks/2022-07-04-11-03-30.png" alt="基于万维网的电子邮件"></p>
+<p>总结<br><img src="/2022/07/05/Computer-Networks/2022-07-04-11-03-43.png" alt="总结"></p>
+<h3 id="万维网和HTTP协议"><a href="#万维网和HTTP协议" class="headerlink" title="万维网和HTTP协议"></a>万维网和HTTP协议</h3><p>万维网<br><img src="/2022/07/05/Computer-Networks/2022-07-04-11-05-56.png" alt="万维网"></p>
+<p>HTTP<br><img src="/2022/07/05/Computer-Networks/2022-07-04-11-07-31.png" alt="HTTP1"><br><img src="/2022/07/05/Computer-Networks/2022-07-04-11-08-57.png" alt="HTTP2"><br><img src="/2022/07/05/Computer-Networks/2022-07-04-11-10-31.png" alt="HTTP3"><br><img src="/2022/07/05/Computer-Networks/2022-07-04-11-11-43.png" alt="HTTP4"><br><img src="/2022/07/05/Computer-Networks/2022-07-04-11-12-32.png" alt="HTTP5"></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://sleepyhermit.github.io/2022/07/05/Computer-Networks/" data-id="cl57j329j0000owtj426h1avd" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/network/" rel="tag">network</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-test" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2022/07/05/test/" class="article-date">
+  <time datetime="2022-07-05T01:53:19.000Z" itemprop="datePublished">2022-07-05</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2022/07/05/test/">test</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p><img src="/2022/07/05/test/1.png" alt="img"></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://sleepyhermit.github.io/2022/07/05/test/" data-id="cl57iqumq000150tjfhzjdef0" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2022/07/05/hello-world/" class="article-date">
+  <time datetime="2022-07-05T01:46:26.343Z" itemprop="datePublished">2022-07-05</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2022/07/05/hello-world/">Hello World</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://sleepyhermit.github.io/2022/07/05/hello-world/" data-id="cl57iqumk000050tjf14d02v9" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget">
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/network/" rel="tag">network</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/network/" style="font-size: 10px;">network</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/07/">July 2022</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2022/07/05/Computer-Networks/">计算机网络</a>
+          </li>
+        
+          <li>
+            <a href="/2022/07/05/test/">test</a>
+          </li>
+        
+          <li>
+            <a href="/2022/07/05/hello-world/">Hello World</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2022 sleepyhermit<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+
+  
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+  </div>
+</body>
+</html>
